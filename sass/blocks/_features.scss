@@ -1,0 +1,50 @@
+.features {
+
+    &__title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        text-align: center;
+        color: #F1F2F3;
+    }
+
+    &__map {
+        position: relative;
+        left: 54px;
+        top: -50px;
+    }
+
+    &__car {
+        position: relative;
+        left: 320px;
+        top: -600px;
+    }
+}
+
+@media only screen and(max-width: 360px) {
+    .features {
+
+        &__title {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 140%;
+            text-align: center;
+            color: #F1F2F3;
+        }
+
+        &__map {
+            max-width: 360px;
+            position: relative;
+            left: -35px;
+            top: -40px;
+        }
+
+        &__car {
+            max-width: 200px;
+            position: relative;
+            left: 50px;
+            top: -260px;
+        }
+    }
+
+}

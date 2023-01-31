@@ -1,0 +1,168 @@
+.featured {
+    margin-top: -400px;
+    margin-bottom: 144px;
+
+    &__title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        text-align: center;
+        color: #F1F2F3;
+    }
+
+    &__icon {
+        display: flex;
+        justify-content: center;
+        gap: 32px;
+        margin-top: 48px;
+        margin-bottom: 72px;
+    }
+
+    &__card {
+        display: grid;
+        grid-template-columns: repeat(3, 248px);
+        grid-template-rows: auto;
+        align-items: center;
+        justify-content: center;
+        gap: 72px;
+
+        &--box {
+            max-width: 248px;
+            height: 312px;
+            background: #111213;
+            border-radius: 20px;
+
+            &-title {
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 140%;
+                color: #F1F2F3;
+                padding-top: 32px;
+                padding-left: 24px;
+            }
+
+            &-model {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 140%;
+                color: #BABEC4;
+                padding-left: 24px;
+            }
+
+            &-img {
+                padding-right: 52px;
+                margin-top: 32px;
+            }
+
+            &-span {
+                display: inline-block;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 140%;
+                color: #FFFFFF;
+                padding-left: 24px;
+                margin-top: 38px;
+            }
+
+            &-btn {
+                position: relative;
+                width: 56px;
+                height: 48px;
+                left: 80.5px;
+                top: 39px;
+                background: #4177DC;
+                border-radius: 20px 0px;
+                border: none;
+
+                img {
+                    padding: 12px 12px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and(max-width: 360px) {
+    .featured {
+        margin-top: -200px;
+        margin-bottom: 144px;
+
+        &__title {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 140%;
+            text-align: center;
+            color: #F1F2F3;
+        }
+
+        &__icon {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            margin-top: 48px;
+            margin-bottom: 72px;
+        }
+
+        &__card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 72px;
+
+            &--box {
+                width: 228px;
+                height: 279px;
+                background: #111213;
+                border-radius: 20px;
+
+                &-title {
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 140%;
+                    color: #F1F2F3;
+                    padding-top: 32px;
+                    padding-left: 24px;
+                }
+
+                &-model {
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 140%;
+                    color: #BABEC4;
+                    padding-left: 24px;
+                }
+
+                &-img {
+                    padding-right: 32px;
+                    margin-top: 24px;
+                }
+
+                &-span {
+                    display: inline-block;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 140%;
+                    color: #FFFFFF;
+                    padding-left: 24px;
+                    margin-top: 26.23px;
+                }
+
+                &-btn {
+                    position: relative;
+                    width: 52px;
+                    height: 44px;
+                    left: 64px;
+                    top: 35.5px;
+                    background: #4177DC;
+                    border-radius: 20px 0px;
+                    border: none;
+
+                    img {
+                        padding: 12px 12px;
+                    }
+                }
+            }
+        }
+    }
+}

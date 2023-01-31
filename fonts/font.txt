@@ -1,0 +1,18 @@
+static/Exo2-Thin.ttf
+  static/Exo2-ExtraLight.ttf
+  static/Exo2-Light.ttf
+  static/Exo2-Regular.ttf
+  static/Exo2-Medium.ttf
+  static/Exo2-SemiBold.ttf
+  static/Exo2-Bold.ttf
+  static/Exo2-ExtraBold.ttf
+  static/Exo2-Black.ttf
+  static/Exo2-ThinItalic.ttf
+  static/Exo2-ExtraLightItalic.ttf
+  static/Exo2-LightItalic.ttf
+  static/Exo2-Italic.ttf
+  static/Exo2-MediumItalic.ttf
+  static/Exo2-SemiBoldItalic.ttf
+  static/Exo2-BoldItalic.ttf
+  static/Exo2-ExtraBoldItalic.ttf
+  static/Exo2-BlackItalic.ttf

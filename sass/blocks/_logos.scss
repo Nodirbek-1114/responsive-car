@@ -1,0 +1,32 @@
+.logos {
+    display: flex;
+    align-items: center;
+    gap: 106px;
+    margin-top: 128px;
+    margin-bottom: 136px;
+
+    &__logo {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media only screen and(max-width: 360px) {
+    .logos {
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 64px;
+        margin-top: 88px;
+        margin-bottom: 116px;
+
+        &__logo{
+
+            &--img{
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+
+}

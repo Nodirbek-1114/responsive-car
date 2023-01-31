@@ -1,0 +1,113 @@
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    &__ul {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        &--list {
+            list-style-type: none;
+
+            &-text {
+                max-width: 198px;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 140%;
+                color: #BABEC4;
+                margin-top: 24px;
+            }
+
+            &-link {
+                text-decoration: none;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 140%;
+                color: #BABEC4;
+            }
+
+            &-icon {
+                display: flex;
+                gap: 32.5px;
+            }
+        }
+    }
+
+    &__menu {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        color: #F1F2F3;
+    }
+
+    &__bottom {
+        margin-top: 98px;
+        padding-bottom: 32px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 140%;
+        color: #888B91;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .footer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+    
+        &__ul {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+    
+            &--list {
+                list-style-type: none;
+    
+                &-text {
+                    max-width: 198px;
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 140%;
+                    color: #BABEC4;
+                    margin-top: 20px;
+                }
+    
+                &-link {
+                    text-decoration: none;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 140%;
+                    color: #BABEC4;
+                }
+    
+                &-icon {
+                    display: flex;
+                    gap: 32.5px;
+                }
+            }
+        }
+    
+        &__menu {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 140%;
+            color: #F1F2F3;
+            margin-bottom: 20px;
+        }
+    
+        &__bottom {
+            margin-top: 73px;
+            padding-bottom: 36px;
+            text-align: center;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 140%;
+            color: #888B91;
+        }
+    }
+}
